@@ -1,7 +1,20 @@
+.music-line {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+
 /* CARD */
 
 .card__wrapper {
   width: 400px;
+  min-width: 290px;
   height: 450px;
   background-color: black;
 
@@ -12,6 +25,8 @@
   transition: box-shadow 0.4s;
 
   position: relative;
+
+  margin: 10px;
 }
 
 .card__wrapper:hover {
